@@ -115,7 +115,7 @@ const About = () => {
                 <span className="text-white font-bold drop-shadow">
                   Adwaith DL
                 </span>
-                , a Junior Security Analyst focused on SOC operations, threat
+                , Security Analyst focused on SOC operations, threat
                 detection, and cloud security.
               </p>
 
