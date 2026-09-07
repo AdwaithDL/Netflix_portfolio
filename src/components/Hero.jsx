@@ -12,10 +12,8 @@ const Hero = () => {
   const contentRef = useRef(null);
 
   const developerRoles = [
-    'FEATURE FILM // FULL-STACK ARCHITECT',
-    'ORIGINAL SERIES // AI & ML SPECIALIST',
-    'BLOCKBUSTER // DISTRIBUTED SYSTEMS',
-    'ACCLAIMED // ALGORITHMIC PROBLEM SOLVER'
+    'CYBERSECURITY ANALYST // CLOUD SECURITY',
+    'SOC ANALYST // THREAT HUNTER'
   ];
 
   useEffect(() => {
@@ -195,26 +193,26 @@ const Hero = () => {
             
             <div className="hero-anim-item flex items-center gap-3">
               <span className="px-2.5 py-0.5 bg-red-600 text-white font-black text-xs rounded tracking-widest shadow-[0_0_20px_rgba(229,9,20,0.8)] animate-pulse">TOP 1%</span>
-              <span className="text-white/80 text-xs font-mono tracking-widest uppercase">Software Engineer & Problem Solver</span>
+              <span className="text-white/80 text-xs font-mono tracking-widest uppercase">Cybersecurity Engineer & Cloud Security Professional</span>
             </div>
 
             <h1 className="hero-anim-item text-5xl md:text-7xl font-black tracking-tighter text-white leading-[0.95] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
-              SUSHMITA <br />
+              ADWAITH DL <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-rose-600 to-red-700 drop-shadow-[0_0_35px_rgba(220,38,38,0.5)]">
-                DEV.ENGINE
+                SECURITY ANALYST
               </span>
             </h1>
 
             <div className="hero-anim-item flex items-center gap-3 text-xs font-mono text-red-400 font-bold">
               <span className="px-2 py-0.5 bg-red-500/10 border border-red-500/30 rounded text-red-500">99.9% Uptime</span>
               <span className="text-white/40">•</span>
-              <span>React • Node.js • PostgreSQL</span>
+              <span> SIEM • EDR • AWS • SOAR</span>
               <span className="text-white/40">•</span>
-              <span className="text-white/70">Docker & Cloud</span>
+              <span className="text-white/70">SOC • Cloud Security</span>
             </div>
 
             <p className="hero-anim-item text-sm md:text-base text-white/80 font-light leading-relaxed max-w-md drop-shadow">
-              Architecting robust full-stack systems, building scalable multi-tenant SaaS platforms, and engineering cutting-edge AI integrations.
+              Cybersecurity Engineer with hands-on experience in SOC operations, SIEM monitoring, threat detection, and incident investigation. Skilled in cloud security, ethical hacking, and vulnerability assessment, with a strong focus on identifying threats and strengthening security defenses.
             </p>
 
             {/* Action Button Set */}
@@ -262,7 +260,7 @@ const Hero = () => {
 
                 {/* Netflix Series Tag */}
                 <div className="absolute top-6 left-6 z-30 px-3 py-1 bg-red-600 text-white font-mono text-[10px] font-bold tracking-widest rounded shadow-xl">
-                  FEATURED DEV
+                  FEATURED SECURITY ANALYST
                 </div>
 
                 <img
@@ -279,7 +277,7 @@ const Hero = () => {
             <div className="p-5 bg-black/80 backdrop-blur-2xl border border-white/15 rounded-xl shadow-2xl max-w-xs">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold mb-2">Core Stack & Awards</h3>
               <p className="text-xs text-white/80 leading-relaxed font-light">
-                Flipkart GRiD 7.0 Semi-Finalist, AlgoUniversity Tech Fellow, GitHub Foundations Certified.
+                CEH v13 Certified,Threat Hunter,Log Analysis.
               </p>
             </div>
           </div>
@@ -288,7 +286,7 @@ const Hero = () => {
 
         {/* Bottom Cinematic Ticker */}
         <div className="hero-anim-item flex items-center justify-between text-xs font-mono text-white/50 tracking-widest uppercase">
-          <span>ENGINEERED FOR SCALABILITY</span>
+          <span>SECURING DIGITAL ENVIRONMENTS</span>
           <span>[ PORTFOLIO RELEASE v2.6 ]</span>
         </div>
       </div>
@@ -307,7 +305,7 @@ const Hero = () => {
       {/* --- NETFLIX-THEMED DEVELOPER NAVBAR --- */}
       <header className="absolute top-0 left-0 z-50 w-full max-w-7xl mx-auto px-6 md:px-12 py-6 flex items-center justify-between pointer-events-auto">
         <div className="text-2xl font-black text-red-600 tracking-tighter flex items-center gap-2 drop-shadow-[0_2px_15px_rgba(229,9,20,0.9)]">
-          SUSHMITA<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
+          ADWAITH DL<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
         </div>
         <nav className="hidden md:flex items-center gap-8 text-xs font-mono uppercase tracking-widest text-white/80">
           <a href="#home" className="hover:text-red-500 transition-colors">Home</a>
