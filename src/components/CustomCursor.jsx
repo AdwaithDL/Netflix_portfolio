@@ -64,7 +64,7 @@ const CustomCursor = () => {
       {/* Global Mouse Follower Spotlight Beam */}
       <div
         ref={spotlightRef}
-        className="fixed top-0 left-0 w-[300px] h-[300px] rounded-full pointer-events-none z-[9998] opacity-0 blur-[100px] transition-opacity duration-300"
+        className="fixed top-0 left-0 w-[10px] h-[10px] rounded-full pointer-events-none z-[9998] opacity-0 blur-[100px] transition-opacity duration-300"
         style={{
           background: 'radial-gradient(circle, rgba(229,9,20,0.2) 0%, rgba(229,9,20,0.06) 45%, transparent 75%)'
         }}
